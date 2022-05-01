@@ -110,7 +110,7 @@ namespace GraduateAssessment.Services
         {
             while (!validateInput(name))
             {
-                Console.WriteLine("Invalid input, please enter a valid name:");
+                Console.Write("Invalid input, please enter a valid name: ");
                 name = Console.ReadLine();
             }
 
