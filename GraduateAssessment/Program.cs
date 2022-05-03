@@ -75,16 +75,16 @@ namespace GraduateAssessment
             });
 
             //Create StreamWriter object to write to text file
-            TextWriter tw = new StreamWriter("output.txt");
+            TextWriter textWriter = new StreamWriter("output.txt");
 
             //Write scores and print results in textfile
             Console.WriteLine("\nScores:\n");
             foreach (Match tennis in matches)
             {
-                Console.WriteLine(tennis.sentence);
-                tw.WriteLine(tennis.sentence);
+                textWriter.WriteLine(tennis.sentence);
+                textWriter.WriteLine(tennis.sentence);
             }
-            tw.Close();
+            textWriter.Close();
 
             //Information
             Console.WriteLine("\nResults printed in output.txt!\nLogs saved in logs.txt!");
@@ -92,7 +92,5 @@ namespace GraduateAssessment
             Console.ReadLine();
 
         }
-       
-
     }
 }

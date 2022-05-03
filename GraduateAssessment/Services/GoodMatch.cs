@@ -10,7 +10,7 @@ namespace GraduateAssessment.Services
 {
     public class GoodMatch
     {
-        //Calculate sequence based on sentence
+
         public static string calcSequence(string sentence)
         {
             string sequence = "";
