@@ -28,7 +28,7 @@ namespace GraduateAssessment
             Console.WriteLine("\nScore: " + match1.sentence + "\n");
 
             //Get CSV file path
-            Console.WriteLine("Please enter file path:");
+            Console.Write("Please enter file path: ");
             string filename = @Console.ReadLine();
 
             //Read player names from file and add to applicable lists
@@ -82,7 +82,7 @@ namespace GraduateAssessment
             Console.WriteLine("\nScores:\n");
             foreach (Match tennis in matches)
             {
-                textWriter.WriteLine(tennis.sentence);
+                Console.WriteLine(tennis.sentence);
                 textWriter.WriteLine(tennis.sentence);
             }
             textWriter.Close();
