@@ -10,6 +10,7 @@ namespace GraduateAssessment
     {
         static void Main(string[] args)
         {
+            Console.Title = "Good Match";
           
 
             //Clear old logs
