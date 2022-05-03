@@ -28,6 +28,8 @@ namespace GraduateAssessment
             Console.WriteLine("\nScore: " + match1.sentence + "\n");
 
             //Get CSV file path
+            Console.WriteLine("Note: File path  is players.csv");
+            Console.WriteLine();
             Console.Write("Please enter file path: ");
             string filename = @Console.ReadLine();
 
